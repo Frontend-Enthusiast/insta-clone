@@ -1,0 +1,59 @@
+.post__avatar img{
+    object-fit: contain;
+}
+.post__avatar{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.Insta__container img{
+   width: 100%;  
+   height: 91%;
+   max-height: 300px;
+   object-fit: contain;
+   margin: 0 4rem;
+}
+.post__comments p{
+    margin-bottom: 0;
+}
+.post__input{
+    margin: 0 2rem;
+}
+.post__comment{
+    margin: 0 2rem;
+}
+.Insta__container{
+    width: 75%;
+    height: 41%;
+    margin-bottom: 12px;
+}
+.Insta__post{
+    border: 2px solid lightgray;
+    max-width: 500px;
+    height: 64vh;
+    margin: auto;
+    margin-top: 2rem;
+}
+header{
+    width: 91%;
+    height: 10%;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+.post__text{
+    font-weight: normal;
+    margin-left: 8rem;
+}
+.post__comments{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 10%;
+    overflow-y: scroll;
+    margin: 3rem 2rem;
+} 
+
+footer{
+    height: 10%;
+}
